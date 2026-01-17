@@ -96,38 +96,36 @@
 </template>
 
 <script>
-import data from "./assets/data";
-import Dropdown from "primevue/dropdown";
+import data from './assets/data';
+import Dropdown from 'primevue/dropdown';
 
 export default {
   components: {
-    "p-dropdown": Dropdown,
+    'p-dropdown': Dropdown,
   },
   data() {
     return {
       selectedCity: null,
       translators: data,
       cities: [
-        "Москва",
-        "Санкт-Петербург",
-        "Россия, регионы",
-        "Астана",
-        "Алматы",
-        "Актобе",
-        "Киев",
-        "Минск",
-        "Азербайджан",
-        "Армения",
-        "Грузия",
-        "Узбекистан",
+        'Москва',
+        'Санкт-Петербург',
+        'Россия, регионы',
+        'Астана',
+        'Алматы',
+        'Актобе',
+        'Киев',
+        'Минск',
+        'Азербайджан',
+        'Армения',
+        'Грузия',
+        'Узбекистан',
       ],
     };
   },
   computed: {
     filtered() {
-      return data.filter((card) => {
-        return card.city === this.selectedCity;
-      });
+      return data.filter(card => card.city === this.selectedCity);
     },
   },
 };
