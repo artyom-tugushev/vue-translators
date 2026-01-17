@@ -1,0 +1,68 @@
+const kiev = [
+  {
+    id: 1,
+    city: 'Киев',
+    name: 'Antonenko Iryna',
+    phone: '+38 (044) 278-25-24',
+    email: 'irynantonenko@yahoo.com',
+    address: 'ул. Михайловская, 9А, кв. 44',
+  },
+  {
+    id: 2,
+    city: 'Киев',
+    name: 'Dubrovina Iryna',
+    phone: '+38 (097) 447-14-88',
+    messenger: '+38-044-331-12-23',
+    email: 'irina_dubrovina@i.ua',
+    address: 'ул. Олеся Гончара, 47/49, кв. 31',
+  },
+  {
+    id: 3,
+    city: 'Киев',
+    name: 'Karavan Olga',
+    phone: '+38 (093) 681-70-15',
+    email: 'o.v.karavan@gmail.com',
+  },
+  {
+    id: 4,
+    name: 'Lesyk Karyna',
+    city: 'Киев',
+    phone: '+38 (050) 310-71-04',
+    messenger: '+38 (095) 618-40-01',
+    email: 'amo-alla@ukr.net',
+  },
+  {
+    id: 5,
+    approved: true,
+    name: 'Kotliar Taisiia',
+    city: 'Киев',
+    phone: '+38 (067) 498-22-90',
+    messenger: '+38 (044) 278-25-24',
+    email: 'tayakotlyar@yahoo.it',
+  },
+  {
+    id: 6,
+    name: 'Kushnirova Olga',
+    city: 'Киев',
+    phone: '+38 (097) 278-27-23',
+    email: 'bau.kiev@gmail.com',
+  },
+  {
+    id: 7,
+    name: 'Mariievska Alvina',
+    city: 'Киев',
+    phone: '+38 (067) 715-38-86',
+    messenger: '+38 (050) 630-00-82',
+    email: 'alvina79@i.ua',
+  },
+  {
+    id: 8,
+    name: 'Zadorozhnyi Andrii',
+    city: 'Киев',
+    phone: '+38 (050) 689-49-38',
+    messenger: '+38 (063) 790-0920',
+    email: 'zadodosha@gmail.com',
+  },
+];
+
+export default kiev;

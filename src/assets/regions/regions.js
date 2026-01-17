@@ -1,0 +1,55 @@
+const regions = [
+  {
+    id: 1,
+    name: 'Чигридова Наталья',
+    region: 'Ростов-на-Дону',
+    city: 'Россия, регионы',
+    phone: '+7-928-7768144',
+    messenger: '+7-928-9080910',
+    email: 'chigridi@mail.ru',
+  },
+  {
+    id: 2,
+    name: 'Исаев Дмитрий',
+    region: 'Самара',
+    city: 'Россия, регионы',
+    phone: '+7-937-9997387',
+    email: 'scipio@vgt.ru',
+  },
+  {
+    id: 3,
+    name: 'Фриджерио Соня',
+    region: 'Волгоград',
+    city: 'Россия, регионы',
+    phone: '+7-988-0289827',
+    email: 's.frigerio@yandex.com',
+  },
+  {
+    id: 5,
+    approved: true,
+    name: 'Ди Мари Чиро',
+    region: 'Таганрог',
+    city: 'Россия, регионы',
+    phone: '+7-919-8877986',
+    email: 'cirodimari@mail.ru',
+  },
+  {
+    id: 6,
+    approved: true,
+    name: 'Тарикко Юлия',
+    region: 'Челябинск',
+    city: 'Россия, регионы',
+    phone: '+7-903-0888154',
+    email: 'yuliataricco@gmail.com',
+  },
+  {
+    id: 7,
+    name: 'Бармина Елена',
+    region: 'Екатеринбург',
+    city: 'Россия, регионы',
+    phone: '+7 912 686-88-00',
+    email: 'consolato.ekaterinburg@gmail.com',
+  },
+];
+
+export default regions;
